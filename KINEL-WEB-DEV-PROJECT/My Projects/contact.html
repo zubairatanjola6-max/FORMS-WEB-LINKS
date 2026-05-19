@@ -12,22 +12,57 @@
 
 <body>
 
-    <h1>📞 Contact Me</h1>
+    <h1>This is our contact page</h1>
     <a href="index.html" target="_blank">Back to Home</a>
 
-    <p>If you would like to get in touch, fill the form below:</p>
+
+
+
+
+
+    
 
     <form>
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message"></textarea><br><br>
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" placeholder="e.g Alexander Smith"><br><br>
 
-        <button type="submit">Send Message</button>
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" placeholder="e.g alex@email.com"><br><br>
+      
+        <label for="number">Phone Number</label><br>
+        <input type="tel" id="number" placeholder="e.g +234 812 345 6789"><br><br>
+  
+
+          <label>Subject</label>
+
+         <select name="Subject">
+            <option value="">_Please Select_</option>
+            <option value="freelance">Freelance Project</option>
+            <option value="job">Job Opportunity</option>
+            <option value="general">General Inquiry</option>
+
+
+
+         </select>
+
+            <br><br><br>
+
+
+        <!-- Message -->
+        <label>Message:</label>
+        <textarea placeholder="Tell us about your project..."></textarea>
+
+
+
+        <!-- Send Message -->
+         <button>Send Message</button>
+
+
+
+
     </form>
 
     <br><br>
