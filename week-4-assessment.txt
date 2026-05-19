@@ -1,0 +1,26 @@
+Q1. The four layers of the CSS box model from inside to outside are:
+Content → Padding → Border → Margin
+Q2.
+Padding is the space inside the element, between the content and the border.
+Margin is the space outside the border, separating the element from other elements.
+Padding adds to the clickable area of a button, margin does not.
+Q3.
+With width: 200px; padding: 20px; box-sizing: border-box;
+The total width is 200px because padding is included inside the width when using border-box.
+Q4.
+max-width: 1100px; margin: 0 auto;
+max-width: 1100px limits how wide the content can stretch on large screens.
+margin: 0 auto centers the element horizontally.
+This pattern is used on most websites to keep content centered and readable on all screen sizes.
+Q5.
+font-size: 16px is a fixed size.
+font-size: 1rem is relative to the root (html) font size.
+1rem is better because it is responsive and respects user/browser settings for accessibility.
+Q6.
+CSS
+.card {
+  background-color: white;
+  padding: 24px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
