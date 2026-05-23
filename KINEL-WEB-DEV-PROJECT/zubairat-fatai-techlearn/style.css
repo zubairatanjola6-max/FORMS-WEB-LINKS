@@ -61,7 +61,7 @@ header{
 }
 
 .location{
-    color: #ffee00;
+    color: #fffe00;
 }
 
 .hero-buttons{
@@ -124,9 +124,9 @@ header{
 
 .badge{
     display: inline-block;
-    color:yellow;
-    padding: 5px 10px;
-    border-radius: 10px;
+    color: #fffe00;
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 
 .course-card h3{
@@ -188,21 +188,23 @@ th, td{
     text-align: center;
 }
 
-footer{
+.footer{
     display: flex;
     justify-content: space-between;
     padding: 40px 8%;
     background: #111111;
-    margin-top: 50px;
+    
 }
 
 footer ul{
     list-style: none;
+    
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 
@@ -264,6 +266,15 @@ form textarea{
     border: none;
 }
 
+{
+    .copyright{
+        text-align: center;
+        padding-left: 20px;
+        background: #0a0a0a;
+        color: #ccc;
+    }
+}
+
 textarea{
     height: 120px;
 }
@@ -290,6 +301,7 @@ textarea{
     .features,
     footer{
         flex-direction: column;
+        
     }
 
     .hero-text h1{
