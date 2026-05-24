@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    1. Why must every <label> have a for attribute that matches an input’s id?
+Because it connects the label to the input field.
+When you click the label, the input gets focused.
+It improves accessibility for screen readers.
+It makes forms easier to use.
+
+
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email">
+
+
+
+
+2.Difference between type=email vs type=text vs type=password
+
+email
+Accepts only valid email format and shows email keyboard on phones.
+
+Real -world use 
+Signing up with your email
+
+
+text
+Accepts any normal text
+
+Real-world use
+Entering your full name
+
+
+password
+Hides the characters typed
+
+Real-world use
+Entering your account password
+
+
+3.Difference between href="about.html" and href="#section-id
+
+
+about.html
+Goes to another page 
+
+When to use
+Navigating to a different page of the website
+
+
+#section-id
+Jumps to a section on the same page
+
+When to use
+Table of contents / scrolling to a part of the page
+
+
+4. When is it correct to use an HTML <table>?
+
+When to use: Tables should only be used for displaying tabular data—information that is best organized in rows and columns where there is a logical relationship between the data point.
+
+
+Good use: Student scores, timetable, product price list
+
+
+Bad use: Using tables to design page layout (use CSS instead)
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+1. CSS Box Model (inside → outside) & background-color
+Content → Padding → Border → Margin
+background-color fills the Content and Padding area, but not the margin.
+2. Padding vs Margin
+Padding adds space inside the element (between content and border).
+Margin adds space outside the element (separates elements).
+Padding increases the clickable area; margin does not.
+3. Why we add box-sizing: border-box to *
+It makes width and height include padding and border.
+Problem it solves:
+Without it, adding padding or border makes elements bigger than the width you set, which breaks layouts.
+CSS
+* {
+  box-sizing: border-box;
+}
+4. CSS for the card
+CSS
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ff6b35;
+  margin: 16px;
+}
+5. What max-width: 1100px; margin: 0 auto; does
+max-width: 1100px prevents the container from becoming too wide.
+margin: 0 auto centers it horizontally.
+This keeps content centered and readable on all screens.
+6. 16px vs 1rem
+16px is fixed.
+1rem is relative to the root font size.
+Developers prefer rem because it scales better and supports accessibility.
+7. Make all links orange, remove underline, add on hover
+CSS
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+8. Hover lift effect for project cards
+CSS
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Fundamentals Assessment</title>
+
+    <style>
+        /* Question 2 */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333333;
+            background-color: #f8f8f8;
+        }
+
+        /* Question 3 */
+        :root {
+            --brand-color: #ff6b35;
+        }
+
+        h1 {
+            color: var(--brand-color);
+        }
+
+        /* Question 4 Example */
+        p {
+            color: white;
+            background-color: black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Fundamentals — Colours, Fonts & Spacing</h1>
+
+    <h2>1. Difference between Class and ID Selector</h2>
+    <p>
+        A class selector (.card) can be used on multiple elements, while an ID selector (#card)
+        is used for only one unique element. The class selector can be reused.
+    </p>
+
+    <h2>2. Body Styling</h2>
+    <p>
+        The body uses Arial font, text colour #333333, and background colour #f8f8f8.
+    </p>
+
+    <h2>3. CSS Variable</h2>
+    <p>
+        A CSS variable called --brand-color is defined in :root and used on the h1 element.
+    </p>
+
+    <h2>4. Color vs Background-color</h2>
+    <p>
+        The 'color' property changes the text color, while 'background-color' changes
+        the background behind the element.
+    </p>
+
+</body>
+</html>
